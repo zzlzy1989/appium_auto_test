@@ -1,4 +1,4 @@
-Appium环境安装说明
+**Appium环境安装说明**
 
     1、安装Microsoft .NET Framework 4.5
     2、安装node-****-x64.msi
