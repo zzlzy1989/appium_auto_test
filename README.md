@@ -21,7 +21,8 @@
             1、Appium-1.8.2.dmg：适用苹果os操作系统。程序安装，双击进行安装。
             2、appium-desktop-1.8.2-mac.zip：适用苹果os操作系统。解压安装，解压后即可运行。
             3、appium-desktop-1.8.2-full.nupkg：适用.NET开发平台。.nupkg是.NET的包文件，
-                Visual Studio是.NET的集成开发环境（IDE），NuGet是.NET的包管理器。在Visual Studio中，可打开NuGet，安装.nupkg文件。
+                Visual Studio是.NET的集成开发环境（IDE），NuGet是.NET的包管理器。在Visual Studio中，
+                可打开NuGet，安装.nupkg文件。
             4、appium-desktop-1.8.2-x86_64.AppImage：适用linux操作系统，如ubuntu、redhat、fedora等。
                 下载后，在linux系统中，给予运行权限，双击即可运行。无需安装，也不需要改变依赖或系统配置。
                 此外，也可以在Firejail等沙箱中运行。AppImage相关链接：https://appimage.org/
@@ -53,8 +54,8 @@
         6、安装夜神模拟器
             官方网站下载地址：https://www.yeshen.com/
             下载安装完成之后。桌面会有2个图标：夜神模拟器、夜神多开器。
-            夜神模拟器：默认安卓版本为4.4.2
-            夜神多开器：可以增加安卓5.1模拟器、安卓7.1模拟器。
+            夜神模拟器：默认安卓版本为5.1
+            夜神多开器：安卓7.1模拟器。
             在启动模拟器之前，替换模拟器安装路径当中的nox_adb.exe
             第一步：将%ANDROID_HOME%\platform-tools目录下的adb.exe拷贝到桌面，更改名称为nox_adb.exe
             第二步：将第一步中的nox_adb拷贝到夜神模拟器安装目录下，替换原来的文件。
@@ -165,4 +166,28 @@
         有 Appium 服务器的图形界面包装器可以下载。它们打包了 Appium 服务器运行需要的所有东西，所以你不需要为 Node
     而烦恼。它们还提供一个 Inspector 使你可以查看你应用的层级结构，这在写测试时很方便。
 
+** General Capabilities **
+    1、automationName：Appium (default) or Selendroid or UiAutomator2 or Espresso for Android or XCUITest for
+    iOS or YouiEngine for application built with You.i Engine
+    2、platformName：iOS, Android, or FirefoxOS
+    3、platformVersion：	e.g., 7.1, 4.4
+    4、deviceName：iPhone Simulator, iPad Simulator, iPhone Retina 4-inch, Android Emulator,....
+    5、app：/abs/path/to/my.apk or http://myapp.com/app.ipa
+    6、browserName：'Safari' for iOS and 'Chrome', 'Chromium', or 'Browser' for Android
+    7、newCommandTimeout：60
+    8、language：eg fr
+    9、locale：
+    10、udid：
+    11、orientation：
+    12、autoWebview：
+    13、noReset：重置APP  true, false
+    14、fullReset：停止应用，删除用户数据，卸载APP
+    15、eventTimings：
+    16、enablePerformanceLogging：
+    17、printPageSourceOnFindFailure：
 
+    Android：
+        1、unicodeKeyboard	Enable Unicode input, default false	true or false
+    resetKeyboard
+        2、Resetkeyboard to its original state, after running Unicode tests with unicodeKeyboard capability.
+    Ignored if used alone. Default false	true or false
