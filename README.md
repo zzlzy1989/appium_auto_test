@@ -191,3 +191,16 @@
     resetKeyboard
         2、Resetkeyboard to its original state, after running Unicode tests with unicodeKeyboard capability.
     Ignored if used alone. Default false	true or false
+
+** APP框架 **
+    1、yaml语言
+        yaml是一种简洁的非标记语言
+        yaml以数据为中心，使用空白，缩进，分行组织数据，从而使得表示更加简洁
+
+        基本规则
+        1）、大小写敏感
+        2）、使用缩进分行来表示层级关系
+        3）、禁止使用tab缩进，只能使用空格键
+        4）、缩进长度没有限制，只要元素对齐就表示这些元素属于一个层级
+        5）、使用#表示注释
+        6）、字符串可以不用引号标注

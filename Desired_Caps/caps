@@ -1,0 +1,17 @@
+platformName: Android # 平台名称
+platfromVerrsion: 8.1 # 平台版本号
+automationName: UiAutomator2 # 自动化引擎
+deviceName: Emulator # 设备名称，没有实际意义，但必须要传
+noReset: True # 应用不重置
+appPackage: com.lemon.lemonban #
+appActivity: com.lemon.lemonban.activity.WelcomeActivity #
+
+
+
+
+
+names:  # 学生名称
+  - hello
+  - world
+  - test
+  - python

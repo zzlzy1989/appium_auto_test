@@ -24,4 +24,7 @@ config_dir =  os.path.join(base_dir,"Config")
 
 screenshot_dir = os.path.join(base_dir,"Outputs/screenshots")
 
+# APP启动参数配置路径
+caps_dir = os.path.join(base_dir,"Desired_Caps")
+
 print(screenshot_dir)
